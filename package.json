@@ -1,0 +1,26 @@
+{
+  "name": "ai-chatbot-poc",
+  "version": "1.0.0",
+  "description": "ai chatbot poc by Hung Mai",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "build:watch": "tsc -w -p .",
+    "start": "npm run build && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maihunga1/ai-chatbot-poc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maihunga1/ai-chatbot-poc/issues"
+  },
+  "homepage": "https://github.com/maihunga1/ai-chatbot-poc#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.19.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.53.2"
+  }
+}
